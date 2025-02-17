@@ -1,6 +1,11 @@
+import SEO from "../components/SEO"
+
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div>
+        <SEO title="Giles Contant Page - Contact" />
+        <h1>Contact Page</h1>
+    </div>
   )
 }
 

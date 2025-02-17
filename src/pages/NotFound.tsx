@@ -1,6 +1,11 @@
+import SEO from "../components/SEO"
+
 const NotFound = () => {
   return (
-    <div>NotFound</div>
+    <div>
+        <SEO title="Oops pages non trouvée" />
+        <h1>NotFound Pages</h1>
+    </div>
   )
 }
 
